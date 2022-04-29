@@ -105,6 +105,9 @@ app.get('/', (req, res) => {
     res.send('Hello from my personal Smarty Pant!! with auto restart')
 });
 
+app.get('/hero',(req,res)=>{
+    res.send('hi from hero updated')
+})
 
 
 app.listen(port, () => {
